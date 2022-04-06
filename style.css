@@ -1,0 +1,113 @@
+body {
+  background-color:#008080;
+}
+.box{
+  background:#C0C0C0;
+  border-width:3px;
+  border-color:#FFF #808080 #808080 #FFF;
+  border-style:groove;
+  padding:1px;
+  width:500px;
+  height:150px;
+  margin:0 auto;
+}
+
+.title{
+  height:18px;
+  width:495px;
+  background:#000080;
+  color:#FFF;
+  padding:2px;
+}
+
+.title p{
+  margin:2px 0 0 1px;
+  float:left;
+  font-family:Tahoma;
+  font-weight:bold;
+  font-size:12px;
+}
+
+.title button{
+  margin:2px 2px 2px 0;
+  float:right;
+  width:15px;
+  height:15px;
+  background:#C0C0C0;
+  border-width:2px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding:0;
+  font-size:10px;
+  font-weight:bold;
+  font-family:Tahoma;
+  text-align:center;
+}
+
+.body {
+  padding:0px 12px 12px;
+  height:100%;
+  width:100%;
+  display:inline-block;
+  font-family:"MS Sans Serif";
+  font-size:12px;
+  background: url(key.png) 15px 15px no-repeat;
+}
+
+#leftside {
+  width:375px;
+}
+
+#dialogs {
+  float:left;
+  margin-left:75px;
+  width:240px;
+  margin-top:10px;
+}
+
+.body p {
+  width:100%;
+  margin-left:75px;
+}
+
+
+#buttons {
+  float:right;
+  height:50px;
+  width:100px;
+  margin-top:-25px;
+  margin-right:5px;
+}
+
+#buttons button {
+  width:80px;
+  padding:2px;
+  margin-right:20px;
+}
+
+.body button{
+  font-size:13px;
+  background:#C0C0C0;
+  border-width:3px;
+  border-style:solid;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  margin-bottom:10px;
+  outline:1px solid black;
+}
+
+label {
+  display:block;
+  float:left;
+  clear:left;
+  height:30px;
+  vertical-align:middle;
+  padding-top:5px;
+}
+
+input {
+  float:right;
+  width:150px;
+  border-width:3px;
+  border-style:solid;
+  border-color:#212121 #fff #fff #212121;
+  margin-bottom:8px;
+}
