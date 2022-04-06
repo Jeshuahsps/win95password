@@ -111,3 +111,9 @@ input {
   border-color:#212121 #fff #fff #212121;
   margin-bottom:8px;
 }
+
+.image{
+  background: url("https://i.imgur.com/IUVDNyp.jpg") 100% no-repeat fixed;
+  background-color: #008080;
+  background-position: center;
+}
